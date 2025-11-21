@@ -1,4 +1,3 @@
-// RecipeItem.jsx
 import React from "react";
 import "./RecipeItem.css";
 
