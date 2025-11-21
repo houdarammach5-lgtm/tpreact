@@ -1,0 +1,19 @@
+/* RecipeItem.css */
+.card{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.3s}
+.card:hover{transform:translateY(-12px);box-shadow:0 20px 40px rgba(0,0,0,.15)}
+.img-box{position:relative}
+.img-box img{width:100%;height:240px;object-fit:cover}
+.badge{position:absolute;top:16px;right:16px;background:rgba(255,255,255,.95);color:#4a90e2;padding:8px 18px;border-radius:30px;font-weight:700}
+.content{padding:24px}
+.content h3{font-size:22px;margin:0 0 10px;color:#2d3748}
+.desc{color:#718096;margin-bottom:16px}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+.tag{background:#f7fafc;color:#4a5568;padding:8px 16px;border-radius:30px;font-size:14px;border:1px solid #e2e8f0}
+.diff{color:#4a5568;margin-bottom:12px}
+.flame{margin-left:8px;color:#e53e3e}
+.date{font-size:13px;color:#a0aec0;margin-bottom:20px}
+.actions{display:flex;gap:12px}
+.actions button{flex:1;padding:12px;border:none;border-radius:14px;font-weight:600;cursor:pointer}
+.edit{background:#e2e8f0;color:#4a5568}
+.copy{background:#bee3f8;color:#2c5282}
+.delete{background:#fed7d7;color:#9b2c2c}

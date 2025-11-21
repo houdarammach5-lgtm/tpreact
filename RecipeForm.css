@@ -1,0 +1,92 @@
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,0.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:1000}
+.modal{background:white;
+    width:90%;
+    max-width:520px;
+    max-height:92vh;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,0.25);
+    display:flex;
+    flex-direction:column}
+.header{
+    padding:20px;
+    background:#f8f9fa;
+    border-bottom:1px solid #eee;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-shrink:0
+}
+.close{
+    background:none;
+    border:none;
+    font-size:32px;
+    cursor:pointer;
+    color:#aaa}
+.body{padding:24px;
+    overflow-y:auto;
+    flex-grow:1}
+.body label{
+    display:block;
+    margin:18px 0 8px;
+    font-weight:600}
+.body input,.body select,.body textarea{width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px
+}
+.ing{
+    display:flex;gap:10px;margin:8px 0}
+.ing input{
+    background:#f9f9f9}
+.ing button{
+    background:#ff6b6b;
+    color:white;
+    border:none;
+    padding:0 12px;
+    border-radius:8px;
+    cursor:pointer}
+.add{
+    display:flex;
+    gap:10px;
+    margin:16px 0}
+.add button{
+    background:#4a90e2;
+    color:white;
+    border:none;
+    padding:0 16px;
+    border-radius:8px;
+    cursor:pointer}
+.footer{
+    padding:20px 24px;
+    background:white;
+    border-top:1px solid #eee;
+    display:flex;
+    gap:12px;flex-shrink:0
+}
+.save{
+    flex:2;background:#4a90e2;
+    color:white;
+    border:none;
+    padding:14px;border-radius:12px;
+    font-weight:600;
+    cursor:pointer}
+.cancel{
+    flex:1;background:#eee;
+    color:#666;
+    border:none;
+    padding:14px;
+    border-radius:12px;
+    cursor:pointer
+}
